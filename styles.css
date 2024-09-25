@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+li {
+  list-style-type: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.logo span {
+  color: #4d5ae5;
+}
+.nav-menu a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  color: #404bbf;
+}
+.nav-menu a:focus {
+  color: #404bbf;
+}
+.nav-menu-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.address a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+.address a:hover {
+  color: #404bbf;
+}
+.address a:focus {
+  color: #404bbf;
+}
+.first-section {
+  background-color: #2e2f42;
+}
+.first-section h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.first-section button {
+  background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+.first-section button:hover {
+  background-color: #404bbf;
+}
+.feature h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
