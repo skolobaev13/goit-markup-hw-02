@@ -6,58 +6,60 @@ body {
 li {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-  text-decoration: none;
-}
-.logo span {
   color: #4d5ae5;
 }
-.nav-menu a {
+.logo span {
+  color: #2e2f42;
+}
+.menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
 }
-
-.nav-menu a:hover {
+.menu:hover {
   color: #404bbf;
 }
-.nav-menu a:focus {
+.menu:focus {
   color: #404bbf;
 }
-.nav-menu-studio:active {
+.menu:active {
   color: #404bbf;
   text-decoration: underline;
 }
-.address a {
+.address {
+  font-style: normal;
+}
+.address .contacts {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
 }
-.address a:hover {
+.address .contacts:hover {
   color: #404bbf;
 }
-.address a:focus {
+.address .contacts:focus {
   color: #404bbf;
 }
 .first-section {
   background-color: #2e2f42;
 }
-.first-section h1 {
+.first-section .main-text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -66,74 +68,24 @@ li {
   text-align: center;
   color: #fff;
 }
-.first-section button {
-  background-color: #4d5ae5;
-  box-shadow: 0 4px 4px 0;
+.first-section .button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
-.first-section button:hover {
+.first-section .button:hover {
   background-color: #404bbf;
 }
-.feature h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+
+.first-section .button:focus {
+  background-color: #404bbf;
 }
-.feature p {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.second-section {
-  background-color: #f4f4fd;
-}
-.second-section h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-.second-section h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-.second-section-team {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-}
-.third-section h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-.third-section-portfolio h3 {
+.name-section {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -142,9 +94,65 @@ li {
   color: #2e2f42;
 }
 
-.third-section-portfolio p {
+.second-par {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.third-section {
+  background-color: #f4f4fd;
+}
+.name-third {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.third-li {
+  background-color: #ffffff;
+  text-align: center;
+}
+.third-li .name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.third-p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.four-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+.app-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.four-p {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -160,13 +168,12 @@ li {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
-  text-decoration: none;
-}
-.footer-logo span {
   color: #4d5ae5;
 }
-.footer p {
+.footer-span {
+  color: #f4f4fd;
+}
+.footer-p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
