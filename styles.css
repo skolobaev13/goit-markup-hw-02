@@ -21,7 +21,7 @@ a {
 .logo span {
   color: #2e2f42;
 }
-.studio {
+.menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -29,50 +29,20 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.studio:hover {
+.menu:hover {
   color: #404bbf;
 }
-.studio:focus {
+.menu:focus {
   color: #404bbf;
 }
-.studio:active {
+.menu:active {
   color: #404bbf;
   text-decoration: underline;
-}
-
-.portfolio {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.portfolio:hover {
-  color: #404bbf;
-}
-.portfolio:focus {
-  color: #404bbf;
-}
-
-.contacts {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.contacts:hover {
-  color: #404bbf;
-}
-.contacts:focus {
-  color: #404bbf;
 }
 .address {
   font-style: normal;
 }
-.address a {
+.address .contacts {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -80,10 +50,10 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address a:hover {
+.address .contacts:hover {
   color: #404bbf;
 }
-.address a:focus {
+.address.contacts:focus {
   color: #404bbf;
 }
 .first-section {
@@ -106,7 +76,6 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  box-shadow: 0 4px 4px 0;
   cursor: pointer;
 }
 .first-section .button:hover {
